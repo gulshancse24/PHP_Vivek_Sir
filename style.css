@@ -1,0 +1,94 @@
+*
+{
+    margin:0px;
+    /* user-select:none; */
+    padding:0px;
+    line-height:1.25;
+}
+*:hover
+{
+    /* cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto; */
+    /* cursor: url(), auto; */
+    cursor: default;
+}
+body
+{
+    height:100vh;
+    background-color:#f3621378;
+}
+section
+{
+    width:90%;
+    /* background-color:yellow; */
+    margin-left:5%;
+}    
+hr
+{
+    border-color:#f3621378;
+}
+b
+{
+    font-size:20px
+}
+h1
+{
+    font-size:37px;
+    text-shadow:8px 0px 8px black;
+}
+ol
+{
+    margin-left:4%;
+}
+span
+{
+    font-size:20px;
+}
+pre
+{
+    font-family: monospace;
+    font-size: 17px;
+}
+mark
+{
+    background-color:#f3621378;
+}
+.para
+{
+    font-size:20px;
+    /* float:left; */
+    margin-left:4%;
+   
+    clear:both; 
+}
+#btn
+{
+    background-color:#f3621378;
+    border:none;
+    padding:10px 10px 10px 10px;
+    border-radius:20px;
+    box-shadow:10px 5px 5px brown;
+    cursor: pointer !important;
+    
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+#btn a{color: black !important;padding: 10px 25px;cursor: pointer !important;}
+
+
+/* Page 2 */
+.no_cnt
+{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.no_cnt h1
+{
+    font-size: 50px;
+}
+
